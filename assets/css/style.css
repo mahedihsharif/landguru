@@ -188,6 +188,363 @@
   letter-spacing: 0.3px;
 }
 
+.core {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 5rem 20rem;
+}
+.core .content h6 {
+  color: #ea3a60;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.core .content h1 {
+  font-size: 30px;
+  color: #02073e;
+  padding: 1rem 0;
+}
+.core .content p {
+  color: #343d48;
+  padding: 1rem 0;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+.core .content button {
+  padding: 10px 20px;
+  background-color: #ea3a60;
+  border: 1px solid #ea3a60;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.core .image img {
+  width: 100%;
+}
+
+.letsee {
+  background: url("/assets/images/pattern.png") #ea3a60;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.letsee .container {
+  padding: 5rem 20rem;
+}
+.letsee h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+}
+.letsee h1 {
+  font-size: 30px;
+  padding: 1rem 0;
+  text-align: center;
+}
+.letsee .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  gap: 3rem;
+}
+.letsee .content .content1 {
+  position: relative;
+}
+.letsee .content .content1 .number {
+  background-color: #ffffff;
+  color: #ea3a60;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.letsee .content .content1 h5 {
+  padding: 3rem 0 1rem 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+.letsee .content .content1 p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.letsee .content .content1 .top-arrow {
+  position: absolute;
+  right: 0;
+  top: -15px;
+}
+.letsee .content .content1 .down-arrow {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.price {
+  padding: 5rem 20rem;
+}
+.price h6 {
+  color: #ea3a60;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+}
+.price h1 {
+  font-size: 30px;
+  color: #02073e;
+  padding: 1rem 0;
+  text-align: center;
+}
+.price .price-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  background: #f7f8fb;
+  height: 50px;
+  width: 20%;
+}
+.price .price-btn p {
+  color: #0f2137;
+  font-size: 14px;
+  cursor: pointer;
+}
+.price .price-btn .monthly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  width: 140px;
+  height: 40px;
+  box-shadow: 0px 3px #e8e8e8;
+}
+.price .price-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding-top: 3rem;
+}
+.price .price-plan .content {
+  box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em rgba(225, 224, 224, 0.6);
+  height: 350px;
+  width: 250px;
+  padding: 2rem 0 0 2rem;
+}
+.price .price-plan .content h2 {
+  color: #0f2137;
+  font-size: 20px;
+}
+.price .price-plan .content p {
+  color: #0f2137;
+  font-size: 14px;
+  padding: 1rem 0;
+}
+.price .price-plan .content ul li {
+  font-size: 14px;
+  margin: 0.3rem 0;
+}
+.price .price-plan .content ul li img {
+  width: 13px;
+  margin-right: 0.5rem;
+}
+.price .price-plan .content .price-date p {
+  color: #0f2137;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+.price .price-plan .content .price-date p span {
+  color: #0f2137;
+  font-weight: 300;
+  font-size: 13px;
+}
+.price .price-plan .content button {
+  padding: 10px 20px;
+  background-color: #ea3a60;
+  border: 1px solid #ea3a60;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.price .price-plan .content .trail {
+  cursor: pointer;
+  color: #2563ff;
+}
+
+.team {
+  padding: 5rem 20rem;
+}
+.team h6 {
+  color: #ea3a60;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+}
+.team h1 {
+  font-size: 30px;
+  color: #02073e;
+  padding: 2rem 0;
+  text-align: center;
+}
+.team .team-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 1rem;
+}
+.team .team-container .content {
+  padding: 1rem;
+}
+
+.testimonial {
+  padding: 5rem 20rem;
+}
+.testimonial h6 {
+  color: #ea3a60;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+}
+.testimonial h1 {
+  font-size: 30px;
+  color: #02073e;
+  padding: 2rem 0;
+  text-align: center;
+}
+.testimonial .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  gap: 5rem;
+}
+.testimonial .card .content h5 {
+  font-size: 15px;
+  color: #0f2137;
+  padding: 1rem 0;
+}
+.testimonial .card .content p {
+  color: #0f2137;
+  font-size: 14px;
+  padding-bottom: 1rem;
+}
+.testimonial .card .content .profile h3 {
+  font-size: 15px;
+  color: #0f2137;
+}
+.testimonial .card .content .profile h4 {
+  color: #ea3a60;
+  font-size: 13px;
+}
+
+.blog {
+  padding: 5rem 20rem;
+}
+.blog h6 {
+  color: #ea3a60;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+}
+.blog h1 {
+  font-size: 30px;
+  color: #02073e;
+  padding: 1rem 0;
+  text-align: center;
+}
+.blog .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog .card .content {
+  box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em rgba(225, 224, 224, 0.6);
+}
+.blog .card .content .card-content {
+  padding: 2rem 1rem;
+}
+.blog .card .content .card-content .author-date {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.blog .card .content .card-content .author-date h5 {
+  color: #ea3a60;
+}
+.blog .card .content .card-content .author-date p {
+  color: #343d48;
+  font-size: 13px;
+}
+
+.subscribe {
+  background: url("/assets/images/pattern.png") #ea3a60;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+}
+.subscribe .container {
+  padding: 5rem 20rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subscribe .container h1 {
+  letter-spacing: 0.5px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.subscribe .container p {
+  padding: 2rem 0;
+  font-size: 14px;
+}
+
+.footer {
+  padding: 5rem 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.footer img {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+ul li {
+  cursor: pointer;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   .navbar .logo img {
@@ -203,6 +560,37 @@
   }
   .what-function .function-content .content img {
     width: 10%;
+  }
+  .price .price-plan {
+    display: flex;
+    flex-direction: column;
+  }
+  .price .price-plan .content {
+    width: 100%;
+  }
+  .price .price-plan .content .price-date p {
+    text-align: start;
+  }
+  .price .price-btn {
+    width: 100%;
+  }
+  .team .team-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog .card .content .card-content {
+    padding: 2rem 3rem;
+    font-size: 16px;
+  }
+  .testimonial .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe .container {
+    padding: 2rem 3rem;
+  }
+  .subscribe .container .form img {
+    width: 80%;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -264,6 +652,50 @@
     flex-direction: column;
     padding: 2rem 3rem;
   }
+  .core {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+  }
+  .letsee .container {
+    padding: 3rem 2rem;
+  }
+  .letsee .container .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .letsee .container .content .content1 img {
+    display: none;
+  }
+  .price {
+    padding: 2rem 3rem;
+  }
+  .price .price-btn {
+    width: 40%;
+  }
+  .team {
+    padding: 2rem 3rem;
+  }
+  .team .team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonial {
+    padding: 2rem 3rem;
+  }
+  .blog {
+    padding: 2rem 3rem;
+  }
+  .blog .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog .card .content .card-content {
+    font-size: 16px;
+  }
+  .subscribe {
+    height: 30%;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 769px) and (max-width: 1440px) {
@@ -277,6 +709,30 @@
     padding: 2rem 3rem;
   }
   .services {
+    padding: 2rem 3rem;
+  }
+  .core {
+    padding: 2rem 3rem;
+  }
+  .letsee .container {
+    padding: 2rem 3rem;
+  }
+  .letsee .container .content1 img {
+    display: none;
+  }
+  .price {
+    padding: 2rem 1rem;
+  }
+  .price .price-btn {
+    width: 30%;
+  }
+  .team {
+    padding: 2rem 3rem;
+  }
+  .testimonial {
+    padding: 2rem 3rem;
+  }
+  .blog {
     padding: 2rem 3rem;
   }
 }
